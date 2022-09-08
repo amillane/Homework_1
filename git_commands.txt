@@ -1,0 +1,194 @@
+  397  git --version
+  398  git --version
+  406  git --version
+  407  git status
+  408  git config
+  409  git config --list
+  410  git config --global user.name "amillane"
+  411  git config --global user.email 
+  412  git config --global user.email "amillane99@gmail.com"
+  413  git config --list
+  414  git config --gloabl user.name "Drew Millane"
+  416  git config --list
+  417  git config --gloabl user.name "Drew Millane"
+  418  git config --list
+  419  git config --gloabl user.name "Drew Millane"
+  420  git config --list
+  421  git config [--global] user.name "Drew Millane"
+  422  git --version
+  423  git config --list 
+  424  git config --global user.name "Drew Millane"
+  425  git config --list 
+  426  git config --global core.editor "code --wait"
+  427  git branch
+  428  git config init.defaultBranch main
+  431  git --version
+  432  git update
+  443  git status
+  447  git init
+  448  git status
+  452  git status
+  456  git status
+  457  git add statistics.txt
+  458  git status
+  459  git add -A
+  460  git status
+  461  git rm --cached "history.txt"
+  462  git status
+  463  git commit -m 'create statistics file'
+  464  git status
+  465  git add history.txt
+  466  git commit
+  467  git status
+  468  git restor --staged 'history.txt'
+  469  git rm --cached 'history.txt'
+  470  git status
+  471  git log
+  472  git config --global core.editor "code -w"
+  473  git commit history.txt
+  474  git commit 'history.txt'
+  475  git add history.txt
+  477  git commit history.txt
+  478  git log
+  480  git status
+  481  git status
+  482  git add .
+  483  git status
+  484  git commit -m 'update stats curriculum'
+  485  git log
+  487  git status
+  489  git status
+  490  git add .gitignore
+  491  git commit -m 'create gitignore file'
+  492  git log
+  507  git status
+  508  git status --graph
+  509  git --graph status
+  511  git log
+  512  git log --oneline
+  513  git branch
+  514  git branch music 
+  515  git branch
+  516  git switch music
+  517  git branch
+  518  git log
+  519  git log --oneline
+  521  git status
+  522  git add .
+  523  git commit -m 'create music-cur file'
+  524  git status
+  525  git log
+  526  git switch main
+  527  git switch master
+  528  git merge music
+  529  git log --oneline
+  530  git branch -d music
+  531  git branch
+  533  git log --oneline
+  534  git checkout 04e773c
+  535  git checkout d436bf9
+  536  git checkout main
+  537  git checkout master
+  538  git log --oneline
+  546  git config
+  547  git config --list
+  552  git init
+  553  git config --global init.defaultBranch main
+  554  git status
+  555  git config --global init.defaultBranch 'main'
+  556  git status
+  557  git log
+  559  git status
+  565  git status
+  566  git add .
+  567  git status
+  568  git rm --cached history.txt
+  569  git rm --cached statistics.txt
+  570  git status
+  571  git commit -a -m "create class files"
+  572  git add .
+  573  git status
+  574  git commit -m 'create class files' history.txt
+  575  git commit -m 'create class files' statistics.txt
+  576  git status
+  577  git log
+  580  git add .
+  581  git commit -m "add statistics class curriculum" statistics.txt
+  582  git commit -m "add history class curriculum" history.txt
+  583  git log
+  584  git log --onelines
+  585  git log --oneline
+  588  git commit -a -m "new changes to classes"
+  589  git log
+  590  git log --oneline
+  595  git add .gitignore
+  596  git status
+  600  git commit -m 'create gitignore file'
+  601  git log
+  603  git status
+  604  git commit  -a -m "adding api-keys"
+  606  git status
+  607  git branch music
+  608  git branch
+  610  git switch music
+  611  git log
+  612  git log --oneline
+  614  git commit -a -m 'add empty music file"
+  615  git commit -a -m 'add empty music file'
+  616  git add.
+  617  git add .
+  619  git status
+  620  git commit -m 'add empty music file'
+  622  git status
+  623  git commit -a -m 'adding cur to music class"
+  624  git commit -a -m 'adding cur to music class'
+  625  git branch orchestra
+  626  git branch
+  627  git switch orchestra
+  628  git branch
+  631  git commit -a -m "add text"
+  632  git add .
+  633  git status
+  634  git commit -m 'add text"
+  635  git commit -m 'add text'
+  636  git status
+  637  git switch music
+  638  git merge orchestra
+  639  git branch
+  640  git branch -D orchestra
+  641  git branch
+  643  git log
+  644  git log --oneline
+  645  git switch master 
+  646  git branch
+  647  git merge music
+  648  git log --oneline
+  649  git branch -D music
+  650  git branch
+  655  git remote add origin https://github.com/amillane/stat386-project.git
+  656  git push -u origin master
+  657  git push -u origin master
+  658  git push -u origin master
+  659  git push -u origin master
+  661  git push -u origin master
+  662  git push -u origin main
+  663  git push -u origin master
+  664  git remote -v
+  665  git push -u origin main
+  666  git push -u origin master
+  667  git push -u origin masterclear
+  669  git remote add origin git@github.com:amillane/stat386-project.git
+  671  git remote -v
+  672  git config --global --unset origin
+  673  git remote -v
+  674  git config --global --unset-all
+  676  git remote -v
+  677  git remote add origin git@github.com:amillane/stat386-project.git
+  678  git remote add set-url origin git@github.com:amillane/stat386-project.git
+  679  git remote -v
+  680  git remote rm origin
+  681  git remote -v
+  682  git remote add origin git@github.com:amillane/stat386-project.git
+  683  git remote -v
+  684  git push -u origin master
+  686  history | grep "git " > git_commands.txt
