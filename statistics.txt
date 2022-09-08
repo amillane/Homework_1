@@ -1,4 +1,5 @@
 - Mean and standard deviation
 - Regression
 - Bayes Theorm
+- Random Forests
 
